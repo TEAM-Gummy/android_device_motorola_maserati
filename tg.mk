@@ -1,13 +1,13 @@
 # Inherit device configuration for VZW Droid 4.
 $(call inherit-product, device/motorola/maserati/full_maserati.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common Gummy stuff.
+$(call inherit-product, vendor/Gummy/config/common_full_phone.mk)
 
 #
 # Setup device specific product configuration.
 #
-PRODUCT_NAME := cm_maserati
+PRODUCT_NAME := tg_maserati
 PRODUCT_BRAND := verizon
 PRODUCT_DEVICE := maserati
 PRODUCT_DEVICE_PREFIX := cdma
